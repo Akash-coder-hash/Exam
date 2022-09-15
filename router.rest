@@ -1,0 +1,21 @@
+GET http://localhost:3000/api/courses
+
+###
+
+GET http://localhost:3000/api/courses/6322b519a2b2dbc70fd4c750
+
+###
+
+POST http://localhost:3000/api/courses
+
+{
+    "name":"Course3"
+}
+
+###
+
+PUT http://localhost:3000/api/courses/6322b519a2b2dbc70fd4c750
+
+### 
+
+DELETE http://localhost:3000/api/courses/6322b519a2b2dbc70fd4c750
